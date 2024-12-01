@@ -1,83 +1,46 @@
-<!DOCTYPE html>
-<html lang="cs">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> O mně </title>
-    <link rel="stylesheet" href="css/style_o_mne.css">
-</head>
-<body>
-    <header class="header">
-    
-        <div class="header__line header__line--upper"> 
-            <img class="logo" src="Foto/logo.svg" alt="logo">
-        </div>
-        <div class="header__line header__line--lower"> 
-            <ul class="header-contact">
-                <li> +420 725 401 695</li>
-                <li> psycholog-blechova@seznam.cz </li>
-            </ul>
-            <ul class="header-menu">
-                <li class="header-menu__item"> ÚVOD  </li>
-                <li class="header-menu__item"> SLUŽBY </li>
-                <li class="header-menu__item"> KONTAKT </li>
-                <li class="header-menu__item"> GALERIE  </li>
-                <li class="header-menu__item"> ONLINE REZERVACE  </li>
-            </ul>
-        </div>
-    
-    </header>
+---
+layout: sablona.njk 
+title: O mně
+---
 
-    <img src="Foto/about_photo.jpeg" alt="Mgr. Petra Blechová">
-    <h1> Mgr. Petra Blechová</h1>
-
-    <p> Psychoterapii se věnuji již přes 30 let. Moje praxe je postavena na individuálním a 
-    citlivém přístupu a na vytváření bezpečného prostoru pro sdílení a společné hledání cest k 
-    znovunabytí životní pohody. </p>
-
-    <p> 1994-2024 </p>
-    <p> Třicet let jsem působila jako psycholožka manželské a rodinné poradny a 
-    sociální rehabilitace a později i jako vedoucí ambulantních služeb Psychocentra Domeček. </p>
-
-    <p> 2024 </p>
-    <p> Jsem instruktorkou vědecky podloženého systému funkčního dýchání Oxygen Advantage. </p>
-
-    <p> 2009-2011 </p>
-    <p> V letech 2009-2011 jsem absolvovala v Institutu rodinné terapie Praha teoretický a praktický výcvik v oblasti 
-        systemické rodinné terapie. </p>
-
-    <p> 1996 </p>
-    <p> V roce 1996 jsem po čtyřletém výcviku získala diplom satiterapeuta, který mě opravňuje k provádění 
-    vědecky fundované psychoterapie. </p>
-
-    <p> 1992 </p>
-    <p> V roce 1992 jsem získala magisterský diplom v oboru psychologie na filozofické fakultě Masarykovy univerzity 
-    v Brně. </p>
-
-
-    <p> Pro zvědavé také něco málo z mého osobního života: Mám ráda pohyb. Dlouhá léta jsem se věnovala karate a běhání bez překážek i s překážkami (Spartan Race), nyní cvičím jógu. Poslouchám hudbu různých žánrů a často sáhnu po knížce. Vyhledávám spíše odbornou literaturu. Nejvíce mě oslovuje dílo psychoanalytika C.G. Junga a tvorba Pjéra la Šé'ze. Jedním z nejdojemnějších filmů je pro mě prastarý film se silným poselstvím Nádherná zelená. Nejlépe se cítím, když dýchám jemně a funkčně 
-        dle principů Oxygen Advantage a ve společnosti svých blízkých a spřízněných duší. </p>
-
-
-
-<footer class="footer">
-    <div class="footer__half footer__half--left">
-        <ul>
-            <li> Psychoterapie </li>
-            <li> Mgr. Petra Blechová </li>
-            <li> IČO: 21836817 </li>
-        </ul>
+<div class="about__container">
+<div class="about__hero">
+    <div class="about__hero-half">
+        <img class="about__photo" src="/images/about_photo.jpeg" alt="Mgr. Petra Blechová">
     </div>
-
-    <div class="footer__half footer__half--right">
-        <ul>
-            <li> Grafický design a kód webu </li>
-            <li> &copy Barbora Blechová </li>
-            <li> blechova.bara@seznam.cz </li>
-
-        </ul>
+    <div class="about__hero-half">
+        <h1 class="about__title"> Mgr. Petra Blechová</h1>
+        <p class="about__subtitle"> Psychoterapii se věnuji již přes 30 let. Moje praxe je postavena na individuálním a 
+        citlivém přístupu a na vytváření bezpečného prostoru pro sdílení a společné hledání cest k 
+        znovunabytí životní pohody. </p>
     </div>
+</div>
 
-</footer>
-</body>
-</html>
+<div class="about__experience">
+    <div class="experience">
+        <div class="experience__year"> 1994-2024 </div>
+        <div class="experience__text"> Třicet let jsem působila jako psycholožka manželské a rodinné poradny a sociální rehabilitace a později i jako vedoucí ambulantních služeb Psychocentra Domeček. </div>
+    </div>
+    <div class="experience">
+        <div class="experience__year"> 2024 </div>
+        <div class="experience__text"> Jsem instruktorkou vědecky podloženého systému funkčního dýchání Oxygen Advantage. </div>
+    </div>
+    <div class="experience">
+        <div class="experience__year"> 2009-2011 </div>
+        <div class="experience__text"> V letech 2009-2011 jsem absolvovala v Institutu rodinné terapie Praha teoretický a praktický výcvik v oblasti systemické rodinné terapie. </div>
+    </div>
+        <div class="experience">
+            <div class="experience__year"> 1996 </div>
+            <div class="experience__text"> V roce 1996 jsem po čtyřletém výcviku získala diplom satiterapeuta, který mě opravňuje k provádění vědecky fundované psychoterapie. </div>
+    </div>
+        <div class="experience">
+            <div class="experience__year"> 1992 </div>
+            <div class="experience__text"> V roce 1992 jsem získala magisterský diplom v oboru psychologie na filozofické fakultě Masarykovy univerzity v Brně. </div>
+    </div>
+</div>
+
+<div class="about__personal">
+    <p> Pro zvědavé také něco málo z mého osobního života: Mám ráda pohyb. Dlouhá léta jsem se věnovala karate a běhání bez překážek i s překážkami (Spartan Race), nyní cvičím jógu. 
+        Poslouchám hudbu různých žánrů a často sáhnu po knížce. Vyhledávám spíše odbornou literaturu. Nejvíce mě oslovuje dílo psychoanalytika C.G. Junga a tvorba Pjéra la Šé'ze. Jedním z nejdojemnějších filmů je pro mě prastarý film se silným poselstvím Nádherná zelená. Nejlépe se cítím, když dýchám jemně a funkčně dle principů Oxygen Advantage a ve společnosti svých blízkých a spřízněných duší. </p>
+</div>
+</div>
