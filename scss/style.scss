@@ -26,20 +26,17 @@ html {
     width: 100%;
     margin:0;
     padding: 0;
-    
 }
 
 .button__link, .button__link:hover, .button__link:active, .button__link:visited {
     color: white;
     text-decoration: none;
-
 }
 
 .logo {
     position: absolute;
     top: 25px;
     left: 50%;
-  
 }
 
 
@@ -50,7 +47,6 @@ html {
     height: 100px;
     text-align: center;
     box-shadow: 2px 2px lightgrey;
-
 }
 
 .header__line--lower {
@@ -60,8 +56,6 @@ html {
     margin: 0;
     font-family: $title-font;
     display: none; //for mobile version, these buttons are not visible
-
-
 }
 .header-contact {
     list-style: none;
@@ -80,8 +74,6 @@ html {
     padding-left: 5%;
     padding-right: 5%;
     background-color: whitesmoke;
-
-
 
     &__image {
         height: 250px;
