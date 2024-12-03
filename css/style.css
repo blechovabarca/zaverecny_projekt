@@ -300,8 +300,8 @@ html {
 }
 
 .service-detail-firstpart {
-  background-image: url(/images/service_detail.png);
-  background-repeat: none;
+  background-image: url(/images/service_detail.jpg);
+  background-repeat: no-repeat;
   background-size: cover;
   color: white;
   padding: 30px;
