@@ -25,7 +25,7 @@ html {
 .logo {
   position: absolute;
   top: 25px;
-  left: 50%;
+  left: 46%;
 }
 
 .header__line--upper {
@@ -254,10 +254,13 @@ html {
   font-family: "Open Sans";
   padding-top: 5%;
   padding-bottom: 5%;
+  padding-left: 3%;
+  padding-right: 3%;
 }
 .footer__contact {
   list-style: none;
   color: white;
+  padding-left: 0;
 }
 
 .service-detail__title {
@@ -394,6 +397,11 @@ html {
   color: #685E50;
 }
 
+.footer {
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
 @media screen and (max-width: 400px) {
   .services-buttons {
     display: block;
@@ -403,6 +411,10 @@ html {
   }
   .service-item__photo {
     max-height: 250px;
+  }
+  .footer {
+    padding-left: 3%;
+    padding-right: 3%;
   }
 }
 @media screen and (min-width: 900px) {
@@ -469,8 +481,8 @@ html {
   }
 }
 .footer {
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 8%;
+  padding-right: 8%;
 }
 
 @media screen and (min-width: 1100px) {
@@ -525,6 +537,8 @@ html {
   .footer {
     display: flex;
     justify-content: space-between;
+    padding-left: 8%;
+    padding-right: 8%;
   }
   .footer__contact {
     padding-left: 0;

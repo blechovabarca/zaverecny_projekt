@@ -18,8 +18,6 @@ html {
 
 *, ::after, ::before { box-sizing: inherit; }
 
-
-
 //header settings
 
 .header {
@@ -36,9 +34,8 @@ html {
 .logo {
     position: absolute;
     top: 25px;
-    left: 50%;
+    left: 46%;
 }
-
 
 .header__line--upper {
     background-color: #c4a593;
@@ -142,7 +139,6 @@ html {
         font-weight: 500;
         font-size: 28px;
     }
-
 }
 
 .services {
@@ -193,7 +189,6 @@ html {
     margin-left:0;
     margin-right: 10px;
 }
-
 
 .button--services {
     width: 100px;
@@ -277,10 +272,13 @@ html {
     font-family: $basic-font;
     padding-top: 5%;
     padding-bottom: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
 
     &__contact {
         list-style: none;
         color: white;
+        padding-left: 0;
     }
 }
 
@@ -433,6 +431,11 @@ html {
 
 }
 
+.footer {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
 // dodatečná přizpůsobení pro menší telefon - do 400px)
 
 @media screen and (max-width: 400px) {
@@ -448,7 +451,14 @@ html {
     .service-item__photo {
         max-height: 250px;
     } 
+
+    .footer {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
 }
+
+
 
 //střední obrazovka, tablet (nad 900px)
 
@@ -508,11 +518,9 @@ html {
     padding-bottom: 5px;
 }
 
-
 .contact--address {
     padding-left: 30px;
 }
-
 
 .section--services {
     padding-top: 45px;
@@ -529,8 +537,8 @@ html {
 }
 
 .footer {
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 8%;
+    padding-right: 8%;
 }
 
 //velká obrazovka (více než 1100px)
@@ -601,6 +609,9 @@ html {
     .footer {
         display: flex;
         justify-content: space-between;
+        padding-left: 8%;
+        padding-right: 8%;
+ 
 
     }
 
