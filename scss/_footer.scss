@@ -1,0 +1,40 @@
+@use 'variables.scss';
+
+//footer settings
+
+.footer {
+    background-color: #c4a593;
+    list-style: none;
+    font-family: $basic-font;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
+
+    &__contact {
+        list-style: none;
+        color: white;
+        padding-left: 0;
+        @media screen and (min-width: 1100px) {
+            padding-left: 0;
+        }
+    }
+
+    @media screen and (max-width: 400px) {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    @media screen and (min-width: 900px) {
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+
+    @media screen and (min-width: 1100px) {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+
+}

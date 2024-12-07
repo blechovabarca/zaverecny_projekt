@@ -1,0 +1,87 @@
+@use '_variables';
+
+.about {
+
+    &__hero {
+        display: flex;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        align-items: center;
+        padding-left: 3%;
+        padding-right: 3%;
+
+        @media screen and (max-width: 400px) {
+            display: block;
+        }
+    }
+
+    &__photo {
+        margin-right: 10px;
+        width: 200px;
+        border-radius: 50%;
+    }
+
+    &__title {
+        font-family: $title-font;
+        font-weight: 400;
+        margin-top: 0px;
+        margin-left: 5px;
+        color: $dark-brown;
+    }
+
+    &__subtitle {
+        font-family: $basic-font;
+        margin-left: 5px;
+        color: $dark-brown;
+    }
+
+    &__personal {
+        font-family: $basic-font;
+        color: $dark-brown;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+
+    &__container {
+        padding-left: 3%;
+        padding-right: 3%;
+        @media screen and (min-width: 1100px) {
+            padding-left: 8%;
+            padding-right: 8%;
+        }
+    }
+}
+
+.experience {
+    background-color: $light-brown;
+    margin-bottom: 20px;
+    display: block;
+
+    @media screen and (min-width: 1100px) {
+        display: flex;
+        justify-content: baseline;
+    }
+
+    &__year {
+        font-family: $title-font;
+        font-weight: 500;
+        font-size: 20px;
+        flex-basis: 20%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-left: 2%;
+        text-align: center;
+        background-color: #c4a593;
+        color: white;
+    }
+
+    &__text {
+        font-family: $basic-font;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-left: 5%;
+        flex-basis: 80%;
+        color: $dark-brown;
+    }
+
+}

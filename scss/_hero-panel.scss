@@ -1,0 +1,69 @@
+@use 'variables.scss';
+
+//hero panel settings
+
+.hero {
+    font-family: $basic-font;
+    font-weight: 350;
+    text-align: center;
+    padding-bottom: 30px;
+    color: $dark-brown;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: whitesmoke;
+
+    @media screen and (min-width: 900px) {
+        display: flex;
+        padding-bottom: 0;
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+
+    &__image {
+        height: 250px;
+        width: 250px;;
+        object-fit: cover;
+        border-radius: 50%;
+        @media screen and (min-width: 900px) {
+            border-radius: 0;
+            width: 350px;
+            height: auto;
+            margin-right: 30px;
+        }
+    }
+
+    &__title {
+        font-family: $title-font;
+        font-weight: 350;
+        font-size: 60px;
+        color: $dark-brown;
+        margin-bottom:0;
+        margin-top:0;
+        padding-top: 55px;
+    }
+
+    &__subtitle {
+        font-family: $basic-font;
+        color: $dark-brown;
+        font-weight: 300;
+        margin-top:30px;
+        font-size: 40px;
+    }
+
+    &-buttons {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        padding-left: 0;
+        @media screen and (min-width: 900px) {
+            flex-wrap: wrap;
+        }
+    }
+
+    &__column--text {
+        @media screen and (min-width: 900px) {
+            order: 1;
+        }
+    }
+        
+}

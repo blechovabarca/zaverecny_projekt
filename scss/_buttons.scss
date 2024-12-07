@@ -1,0 +1,91 @@
+@use '_variables';
+
+//styling of all buttons and their links
+
+.button {
+    background-color: #c4a593;
+    width: 150px;
+    color: white;
+    font-family: $basic-font;
+    font-weight: 300;
+    padding: 10px 5px;
+    margin: 8px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 2px 2px lightgrey;
+
+    &-contact {
+        width: 250px;
+        margin-left: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+        @media screen and (min-width: 900px) {
+            padding-bottom: 5px;
+            padding-top: 5px;
+        }
+    }
+
+    &--services {
+        margin-left:0;
+        margin-right: 10px;
+        width: 100px;
+        font-size: 0.9em;
+        @media screen and (min-width: 1100px) {
+            width: 120px;
+            font-size: 16px;
+        }
+    }
+
+    &--service-detail {
+        margin-left:0;
+        margin-top: 20px;
+        width: auto;
+        background-color: $dark-brown;
+        &:hover {
+            background-color: #968073;
+        }
+    }
+
+    &__link {
+        color: white;
+        text-decoration: none;
+        &:active {
+            color: white;
+            text-decoration: none;
+        }
+
+        &:visited {
+            color: white;
+            text-decoration: none;
+        }
+
+        &:hover {
+            background-color: #a68a7a;
+        }
+    }
+}
+
+
+.menu-link {
+    color: $dark-brown;
+    text-decoration: none;
+
+    &:visited {
+        color: $dark-brown;
+        text-decoration: none;
+    }
+
+    &:active {
+        color: $dark-brown;
+        text-decoration: none;
+    }
+    
+    &:hover {
+        text-decoration: underline;
+     }
+}
+
+
+
+
+
