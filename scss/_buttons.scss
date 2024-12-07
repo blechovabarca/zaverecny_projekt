@@ -3,7 +3,7 @@
 //styling of all buttons and their links
 
 .button {
-    background-color: #c4a593;
+    background-color: $primary-color;
     width: 150px;
     color: white;
     font-family: $basic-font;
@@ -12,7 +12,7 @@
     margin: 8px;
     border-radius: 12px;
     text-align: center;
-    box-shadow: 2px 2px lightgrey;
+    box-shadow: 2px 2px $box-shadow;
 
     &-contact {
         width: 250px;
@@ -42,7 +42,7 @@
         width: auto;
         background-color: $dark-brown;
         &:hover {
-            background-color: #968073;
+            background-color: $hover1;
         }
     }
 
@@ -60,7 +60,7 @@
         }
 
         &:hover {
-            background-color: #a68a7a;
+            background-color: $hover2;
         }
     }
 }

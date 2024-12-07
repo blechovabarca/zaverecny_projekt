@@ -18,21 +18,21 @@
     }
 
     &__text {
-        font-family: "Open Sans";
+        font-family: $basic-font;
         &--header {
             font-weight: bolder;
         }
     }
     
     &__list {
-        font-family: "Open Sans";
+        font-family: $basic-font;
     }
 
     &__contact {
         list-style: none;
         color: $dark-brown;
         padding-left:0;
-        font-family: "Open Sans";
+        font-family: $basic-font;
         display: inline-block;
         &-item {
             margin-bottom: 10px;

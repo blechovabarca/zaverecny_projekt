@@ -15,12 +15,12 @@
     padding: 0;
 
     &__line--upper {
-        background-color: #c4a593;
+        background-color: $primary-color;
         margin: 0;
         width: 100%;
         height: 100px;
         text-align: center;
-        box-shadow: 2px 2px lightgrey;
+        box-shadow: 2px 2px $box-shadow;
     }
 
     &__line--lower {
@@ -65,8 +65,8 @@
             border-right: 1.5px solid $dark-brown;
             border-left: 1.5px solid $dark-brown;
         }
-    }
+        }
 
     }
-}
+    }
 }

@@ -10,7 +10,7 @@
     color: $dark-brown;
     padding-left: 5%;
     padding-right: 5%;
-    background-color: whitesmoke;
+    background-color: $hero-background;
 
     @media screen and (min-width: 900px) {
         display: flex;
@@ -21,7 +21,7 @@
 
     &__image {
         height: 250px;
-        width: 250px;;
+        width: 250px;
         object-fit: cover;
         border-radius: 50%;
         @media screen and (min-width: 900px) {
