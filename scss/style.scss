@@ -4,6 +4,7 @@
 @use '_base.scss';          /*some common settings*/
 @use '_header.scss';        /*header*/
 @use '_footer.scss';        /*footer*/
+@use '_buttons';            /*buttons settings*/
 
 
 @use '_hero-panel.scss';    /*hero panel on the main page*/
@@ -14,5 +15,4 @@
 
 @use '_about-page.scss';    /*page about */
 @use '_service-pages.scss'; /*pages with details for each service*/
-
-
+@use '_QR-page.scss';       /*page with QR codes*/
