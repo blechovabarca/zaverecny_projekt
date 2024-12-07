@@ -1,7 +1,11 @@
-@use '_variables.scss';
+
+
+@use 'variables';
 
 
 //styling of the page with QR codes
 
 
-
+.QR-image {
+    width: 100px;
+}
