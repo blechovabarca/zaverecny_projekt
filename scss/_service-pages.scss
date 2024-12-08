@@ -5,7 +5,7 @@
 .service-detail {
 
     &__title {
-        font-family: $title-font;
+        font-family: variables.$title-font;
         font-weight: 300;
         font-size: 36px;
         @media screen and (min-width: 1100px) {
@@ -14,25 +14,25 @@
     }
 
     &__subtitle {
-        font-family: $basic-font;
+        font-family: variables.$basic-font;
     }
 
     &__text {
-        font-family: $basic-font;
+        font-family: variables.$basic-font;
         &--header {
             font-weight: bolder;
         }
     }
     
     &__list {
-        font-family: $basic-font;
+        font-family: variables.$basic-font;
     }
 
     &__contact {
         list-style: none;
-        color: $dark-brown;
+        color: variables.$dark-brown;
         padding-left:0;
-        font-family: $basic-font;
+        font-family: variables.$basic-font;
         display: inline-block;
         &-item {
             margin-bottom: 10px;
@@ -66,7 +66,7 @@
 
     &-secondpart {
         background-color: white;
-        color: $dark-brown;
+        color: variables.$dark-brown;
         padding: 30px 30px;
         margin-top: 30px;
         margin-left: 5%;

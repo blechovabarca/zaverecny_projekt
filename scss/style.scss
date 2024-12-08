@@ -1,20 +1,19 @@
 
 
 @use 'variables';          /*fonts & colors*/
-@use 'base';          /*some common settings*/
-@use 'header';        /*header*/
-@use 'footer';        /*footer*/
+@use 'base';               /*some common settings*/
+@use 'header';             /*header*/
+@use 'footer';             /*footer*/
 @use 'buttons';            /*buttons settings*/
 
 
-@use 'hero-panel';    /*hero panel on the main page*/
-@use 'services';      /*services section on the main page*/
-@use 'gallery';       /*gallery section on the main page*/
-@use 'contact';       /*contact section on the main page*/
+@use 'hero-panel';         /*hero panel on the main page*/
+@use 'services';           /*services section on the main page*/
+@use 'gallery';            /*gallery section on the main page*/
+@use 'contact';            /*contact section on the main page*/
 
 
-@use 'about-page';    /*page about */
-@use 'service-pages'; /*pages with details for each service*/
-@use 'QR-page';   /*page with QR codes*/
-
+@use 'about-page';         /*page about */
+@use 'service-pages';      /*pages with details for each service*/
+@use 'qr-page';            /*page with QR codes*/
 

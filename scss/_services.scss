@@ -3,9 +3,9 @@
 //styling of the service overview section on the main page
 
 .section--services {
-    background-color: $light-brown;
-    font-family: $basic-font;
-    color: $dark-brown;
+    background-color: variables.$light-brown;
+    font-family: variables.$basic-font;
+    color: variables.$dark-brown;
     @media screen and (min-width: 900px) {
         padding-top: 45px;
         padding-bottom: 60px;
@@ -38,18 +38,6 @@
     display: flex;
     margin-bottom: 15px;
 
-    &__title {
-        font-family: $title-font;
-        font-weight: 500;
-        padding-top: 5%;
-    }
-
-    &__text {
-        background-color: white;
-        width: 60%;
-        padding-left: 25px;
-    }
-
     &__photo {
         object-fit: cover;
         width: 40%;
@@ -58,4 +46,19 @@
             max-height: 250px;
         } 
     }
+
+    &__text {
+        background-color: white;
+        width: 60%;
+        padding-left: 25px;
+
+        &--title {
+            font-family: variables.$title-font;
+            font-weight: 500;
+            padding-top: 5%;
+        }
+
+    }
+
+
 }

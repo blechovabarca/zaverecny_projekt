@@ -1,11 +1,45 @@
 
-
 @use 'variables';
-
 
 //styling of the page with QR codes
 
 
-.QR-image {
-    width: 100px;
+.section--qr {
+    padding-top: 20px;
+    color: variables.$dark-brown;
+    font-size: 16px;
 }
+
+.QR {
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+
+    &-container {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        display: grid;
+        grid-template-columns: 250px;
+        gap: 20px;
+        @media screen and (min-width: 700px) {
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        @media screen and (min-width: 1100px) {
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+    }
+
+    &-image {
+        max-width: 250px;
+    }
+
+    &-caption {
+        text-align: center;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+}
+

@@ -3,18 +3,18 @@
 //styling of all buttons and their links
 
 .button {
-    background-color: $primary-color;
+    background-color: variables.$primary-color;
     width: 150px;
     color: white;
-    font-family: $basic-font;
+    font-family: variables.$basic-font;
     font-weight: 300;
     padding: 10px 5px;
     margin: 8px;
     border-radius: 12px;
     text-align: center;
-    box-shadow: 2px 2px $box-shadow;
+    box-shadow: 2px 2px variables.$box-shadow;
 
-    &-contact {
+    &--contact {
         width: 250px;
         margin-left: 0;
         padding-left: 20px;
@@ -40,9 +40,9 @@
         margin-left:0;
         margin-top: 20px;
         width: auto;
-        background-color: $dark-brown;
+        background-color: variables.$dark-brown;
         &:hover {
-            background-color: $hover1;
+            background-color: variables.$hover1;
         }
     }
 
@@ -60,23 +60,23 @@
         }
 
         &:hover {
-            background-color: $hover2;
+            background-color: variables.$hover2;
         }
     }
 }
 
 
 .menu-link {
-    color: $dark-brown;
+    color: variables.$dark-brown;
     text-decoration: none;
 
     &:visited {
-        color: $dark-brown;
+        color: variables.$dark-brown;
         text-decoration: none;
     }
 
     &:active {
-        color: $dark-brown;
+        color: variables.$dark-brown;
         text-decoration: none;
     }
     

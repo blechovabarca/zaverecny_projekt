@@ -3,9 +3,9 @@
 //footer settings
 
 .footer {
-    background-color: $primary-color;
+    background-color: variables.$primary-color;
     list-style: none;
-    font-family: $basic-font;
+    font-family: variables.$basic-font;
     padding-top: 5%;
     padding-bottom: 5%;
     padding-left: 3%;

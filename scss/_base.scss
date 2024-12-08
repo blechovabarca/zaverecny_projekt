@@ -11,11 +11,9 @@ html {
 
 *, ::after, ::before { box-sizing: inherit; }
 
-
-
 //applies to all sections on the main page
 .section {
-    font-family: $basic-font;
+    font-family: variables.$basic-font;
     padding-left: 3%;
     padding-right: 3%;
     padding-bottom: 30px;
@@ -23,7 +21,7 @@ html {
     &__title {    
         margin: 0;
         padding-top: 30px;
-        font-family: $title-font; 
+        font-family: variables.$title-font; 
         font-weight: 500;
         font-size: 28px;
     }

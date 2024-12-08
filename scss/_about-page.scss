@@ -4,83 +4,89 @@
 
     &__hero {
         display: flex;
-        margin-top: 30px;
+        margin-top: 0;
+        padding-top: 40px;
         margin-bottom: 30px;
         align-items: center;
-        padding-left: 3%;
-        padding-right: 3%;
-
-        @media screen and (max-width: 400px) {
+        @media screen and (max-width: 580px) {
             display: block;
+            text-align: center;
         }
     }
 
     &__photo {
-        margin-right: 10px;
-        width: 200px;
+        margin-right: 30px;
+        width: 300px;
         border-radius: 50%;
+        @media screen and (max-width: 580px) {
+            width: 250px;
+            margin-bottom: 15px;
+        }
     }
 
     &__title {
-        font-family: $title-font;
+        font-family: variables.$title-font;
         font-weight: 400;
         margin-top: 0px;
-        margin-left: 5px;
-        color: $dark-brown;
+        font-size: 40px;
+        color: variables.$dark-brown;
     }
 
     &__subtitle {
-        font-family: $basic-font;
-        margin-left: 5px;
-        color: $dark-brown;
+        font-family: variables.$basic-font;
+        color: variables.$dark-brown;
+        font-size: 20px;
     }
 
     &__personal {
-        font-family: $basic-font;
-        color: $dark-brown;
+        font-family: variables.$basic-font;
+        font-size: 20px;
+        color: variables.$dark-brown;
         padding-top: 10px;
         padding-bottom: 20px;
     }
 
     &__container {
+        margin-top: 0;
         padding-left: 3%;
         padding-right: 3%;
+        background-color: whitesmoke;
         @media screen and (min-width: 1100px) {
             padding-left: 8%;
             padding-right: 8%;
         }
     }
+
 }
 
 .experience {
-    background-color: $light-brown;
+    background-color: variables.$light-brown;
     margin-bottom: 20px;
     display: block;
-
-    @media screen and (min-width: 1100px) {
-        display: flex;
-        justify-content: baseline;
-    }
+    max-width: 1100px;
 
     &__year {
-        font-family: $title-font;
+        font-family: variables.$title-font;
+        color: white;
         font-weight: 500;
-        font-size: 20px;
+        font-size: 30px;
         flex-basis: 20%;
         padding-top: 2%;
         padding-bottom: 2%;
         padding-left: 2%;
         text-align: center;
-        background-color: $primary-color;
+        background-color: variables.$primary-color;
     }
 
     &__text {
-        font-family: $basic-font;
+        font-family: variables.$basic-font;
+        font-size: 20px;
         padding-top: 2%;
         padding-bottom: 2%;
         padding-left: 5%;
+        padding-right: 5%;
         flex-basis: 80%;
-        color: $dark-brown;
+        color: variables.$dark-brown;
     }
 
 }

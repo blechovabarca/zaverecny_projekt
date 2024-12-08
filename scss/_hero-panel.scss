@@ -3,14 +3,14 @@
 //hero panel settings
 
 .hero {
-    font-family: $basic-font;
+    font-family: variables.$basic-font;
     font-weight: 350;
     text-align: center;
     padding-bottom: 30px;
-    color: $dark-brown;
+    color: variables.$dark-brown;
     padding-left: 5%;
     padding-right: 5%;
-    background-color: $hero-background;
+    background-color: variables.$hero-background;
 
     @media screen and (min-width: 900px) {
         display: flex;
@@ -33,18 +33,18 @@
     }
 
     &__title {
-        font-family: $title-font;
+        font-family: variables.$title-font;
         font-weight: 350;
         font-size: 60px;
-        color: $dark-brown;
+        color: variables.$dark-brown;
         margin-bottom:0;
         margin-top:0;
         padding-top: 55px;
     }
 
     &__subtitle {
-        font-family: $basic-font;
-        color: $dark-brown;
+        font-family: variables.$basic-font;
+        color: variables.$dark-brown;
         font-weight: 300;
         margin-top:30px;
         font-size: 40px;
