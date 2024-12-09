@@ -2,11 +2,10 @@
 
 //header settings
 
-
 .logo {
     position: absolute;
     top: 25px;
-    left: 48%;
+    left: 47%;
 }
 
 .header {
@@ -29,23 +28,75 @@
         width: 100%;
         margin: 0;
         font-family: variables.$title-font;
-        // display: none; //for smaller versions, these buttons are not visible
-
-        // @media screen and (min-width: 900px) {
-            display: flex;
-            justify-content: space-between;
-            padding-left: 2%;
-            padding-right: 2%;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 2%;
+        padding-right: 2%;
         }
-        // }
+
+    &__line--hamburger {
+        @media screen and (min-width: 900px) {
+            display: none;
+        }
+    }
     
+    &-menu__checkbox {
+        display: none;
+        &:checked ~ .header-menu-hamburger  {
+                display: block;
+            }
+    }
+
+    &-menu__toggler {
+        cursor: pointer;
+        display: block;
+        padding-top: 10px;
+        background-color: variables.$hover2;
+        padding-bottom: 10px;
+        padding-left: 3%;
+        color: white;
+        font-family: variables.$title-font;
+        font-size: 20px;
+        border-bottom: 1px solid variables.$dark-brown;
+        border-top: 1px solid variables.$dark-brown;
+    }
+
+    &-menu-hamburger {
+        display: none;
+        list-style: none;
+        background-color: variables.$light-brown;
+        padding: 0;
+        margin:0;
+
+        &__item {
+            border-bottom: 1px solid variables.$dark-brown;
+        }
+
+        &-link {
+            color: variables.$dark-brown;
+            display: block;
+            text-decoration: none;
+            padding: 10px 10%;
+            &:active {
+                color: variables.$dark-brown;
+                text-decoration: none;
+            }
+            &:visited {
+                color: variables.$dark-brown;
+                text-decoration: none;
+            }
+            &:hover {
+                background-color: variables.$primary-color;
+            }
+            }
+    }
+
     &-contact {
-        // @media screen and (min-width: 900px) {
-            list-style: none;
-            font-size: 12px;
-            display: flex;
-            justify-content: space-around;
-            padding-left: 10px;
+        list-style: none;
+        font-size: 12px;
+        display: flex;
+        justify-content: space-around;
+        padding-left: 10px;
 
         @media screen and (min-width: 1030px) {
             font-size: 16px;
@@ -57,10 +108,9 @@
         &__item {
             margin-right: 13px;
         }
-        }
+    }
     
-
-    &-menu {
+    &-menu { 
         display: none;
         @media screen and (min-width: 900px) {
             list-style: none;
@@ -80,5 +130,3 @@
         }
     }
 }
-   
-  
