@@ -116,6 +116,7 @@ html {
 }
 .header-menu-hamburger-link:hover {
   background-color: #c4a593;
+  color: white;
 }
 .header-contact {
   list-style: none;
