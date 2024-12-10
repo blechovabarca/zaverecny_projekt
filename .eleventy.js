@@ -7,6 +7,14 @@ module.exports = function(eleventyConfig) {
     
     // Zkopírovat css/ to _site/css/
     eleventyConfig.addPassthroughCopy("css");
+
+    //favicon
+    eleventyConfig.addPassthroughCopy("favicon-96x96.png");
+    eleventyConfig.addPassthroughCopy("favicon.svg");
+    eleventyConfig.addPassthroughCopy("favicon.ico");
+    eleventyConfig.addPassthroughCopy("apple-touch-icon.png");
+    eleventyConfig.addPassthroughCopy("site.webmanifest");
+
     
     return {
     // možné formáty šablon

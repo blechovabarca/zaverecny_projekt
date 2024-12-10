@@ -31,12 +31,14 @@
         @media screen and (max-width: 400px) {
             display: block;
         }
+
     }
 }
 
 .service-item {
     display: flex;
     margin-bottom: 15px;
+    box-shadow: variables.$box-shadow-boxes;
 
     &__photo {
         object-fit: cover;
@@ -45,12 +47,20 @@
         @media screen and (max-width: 400px) {
             max-height: 250px;
         } 
+        @media screen and (min-width: 600px) {
+            max-width: 250px;
+        } 
     }
 
     &__text {
         background-color: white;
+        flex-grow: 1;
         width: 60%;
-        padding-left: 25px;
+        padding-left: 5%;
+        padding-right: 5%;
+                @media screen and (min-width: 900px) {
+
+        }
 
         &--title {
             font-family: variables.$title-font;

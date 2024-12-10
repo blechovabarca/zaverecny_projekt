@@ -20,10 +20,19 @@
     }
 
     &__image {
-        height: 250px;
-        width: 250px;
+        height: 300px;
+        width: 300px;
         object-fit: cover;
         border-radius: 50%;
+        box-shadow: variables.$box-shadow-boxes;
+        @media screen and (min-width: 500px) {
+            height: 400px;
+            width: 400px;
+        }
+        @media screen and (max-width: 900px) {
+            margin-bottom: 30px;
+        }
+
         @media screen and (min-width: 900px) {
             border-radius: 0;
             width: 350px;
@@ -55,6 +64,9 @@
         display: flex;
         justify-content: center;
         padding-left: 0;
+        @media screen and (max-width: 900px) {
+            padding-bottom: 30px;
+        }
         @media screen and (min-width: 900px) {
             flex-wrap: wrap;
         }
