@@ -5,6 +5,7 @@
 .section--gallery {
     color: variables.$dark-brown;
     font-family: variables.$basic-font;
+    
     @media screen and (min-width: 900px) {
         display: grid;
         grid-template-columns: 30% 70%;
