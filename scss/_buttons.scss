@@ -43,17 +43,18 @@
         margin-left:0;
         margin-top: 20px;
         width: auto;
-        background-color: variables.$dark-brown;
+        background-color: variables.$hover1;
         &:hover {
-            background-color: variables.$hover1;
+            background-color: variables.$hover2;
         }
     }
 
     &__link {
         color: white;
         text-decoration: none;
-        @media screen and (max-width: 400px) {
+        @media screen and (max-width: 430px) {
             width: 200px;
+            font-size: 12px;
         }
         &:active {
             color: white;
@@ -70,7 +71,6 @@
         }
     }
 }
-
 
 .menu-link {
     color: variables.$dark-brown;

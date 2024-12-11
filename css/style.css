@@ -250,18 +250,19 @@ html {
   margin-left: 0;
   margin-top: 20px;
   width: auto;
-  background-color: #685E50;
+  background-color: #968073;
 }
 .button--service-detail:hover {
-  background-color: #968073;
+  background-color: #a68a7a;
 }
 .button__link {
   color: white;
   text-decoration: none;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 430px) {
   .button__link {
     width: 200px;
+    font-size: 12px;
   }
 }
 .button__link:active {
@@ -355,7 +356,7 @@ html {
 }
 @media screen and (min-width: 1500px) {
   .hero__title {
-    font-size: 120px;
+    font-size: 110px;
   }
 }
 .hero__subtitle {
@@ -367,7 +368,7 @@ html {
 }
 @media screen and (min-width: 1500px) {
   .hero__subtitle {
-    font-size: 80px;
+    font-size: 70px;
   }
 }
 .hero-buttons {
@@ -375,6 +376,7 @@ html {
   display: flex;
   justify-content: center;
   padding-left: 0;
+  margin-top: 40px;
 }
 @media screen and (max-width: 400px) {
   .hero-buttons {
@@ -389,6 +391,12 @@ html {
 @media screen and (min-width: 900px) {
   .hero-buttons {
     flex-wrap: wrap;
+  }
+}
+@media screen and (min-width: 1500px) {
+  .hero-buttons {
+    font-size: 18px;
+    margin-top: 60px;
   }
 }
 @media screen and (min-width: 900px) {
