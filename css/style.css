@@ -364,7 +364,7 @@ html {
   color: #685E50;
   font-weight: 300;
   margin-top: 30px;
-  font-size: 40px;
+  font-size: 35px;
 }
 @media screen and (min-width: 1500px) {
   .hero__subtitle {
@@ -406,9 +406,9 @@ html {
 }
 @media screen and (min-width: 1500px) {
   .hero__column--text {
-    padding-left: 8%;
-    padding-right: 8%;
-    font-size: 30px;
+    padding-left: 6%;
+    padding-right: 6%;
+    font-size: 25px;
   }
 }
 
