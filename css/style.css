@@ -261,8 +261,8 @@ html {
 }
 @media screen and (max-width: 430px) {
   .button__link {
-    width: 200px;
-    font-size: 12px;
+    width: 180px;
+    font-size: 14px;
   }
 }
 .button__link:active {
@@ -476,6 +476,11 @@ html {
   flex-grow: 1;
   width: 60%;
   padding: 5%;
+}
+@media screen and (max-width: 400px) {
+  .service-item__text {
+    padding: 3%;
+  }
 }
 .service-item__text--title {
   font-family: "Fraunces";
