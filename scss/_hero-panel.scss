@@ -39,7 +39,12 @@
             height: auto;
             margin-right: 30px;
         }
+
+        @media screen and (min-width: 1500px) {
+            width: 500px;
+            height: auto;
     }
+}
 
     &__title {
         font-family: variables.$title-font;
@@ -49,14 +54,19 @@
         margin-bottom:0;
         margin-top:0;
         padding-top: 55px;
+        @media screen and (min-width: 1500px) {
+            font-size: 120px;
     }
-
+    }
     &__subtitle {
         font-family: variables.$basic-font;
         color: variables.$dark-brown;
         font-weight: 300;
         margin-top:30px;
         font-size: 40px;
+        @media screen and (min-width: 1500px) {
+            font-size: 80px;
+        }
     }
 
     &-buttons {
@@ -64,6 +74,9 @@
         display: flex;
         justify-content: center;
         padding-left: 0;
+        @media screen and (max-width: 400px) {
+            flex-wrap: wrap;
+        }
         @media screen and (max-width: 900px) {
             padding-bottom: 30px;
         }
@@ -76,6 +89,11 @@
         @media screen and (min-width: 900px) {
             order: 1;
         }
-    }
+        @media screen and (min-width: 1500px) {
+            padding-left: 8%;
+            padding-right: 8%;
+            font-size: 30px;
+        }
         
+    }
 }

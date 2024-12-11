@@ -28,8 +28,8 @@
         display: flex;
         padding-left: 0;
         text-align: left;
-        @media screen and (max-width: 400px) {
-            display: block;
+        @media screen and (max-width: 420px) {
+            flex-wrap: wrap;
         }
 
     }
@@ -38,12 +38,13 @@
 .service-item {
     display: flex;
     margin-bottom: 15px;
+    max-height: 250px;
     box-shadow: variables.$box-shadow-boxes;
 
     &__photo {
         object-fit: cover;
         width: 40%;
-        max-height: 210px;
+        max-height: 250px;
         @media screen and (max-width: 400px) {
             max-height: 250px;
         } 
@@ -56,15 +57,11 @@
         background-color: white;
         flex-grow: 1;
         width: 60%;
-        padding-left: 5%;
-        padding-right: 5%;
-                @media screen and (min-width: 900px) {
-        }
+        padding: 5%;
 
         &--title {
             font-family: variables.$title-font;
             font-weight: 500;
-            padding-top: 5%;
         }
 
     }
