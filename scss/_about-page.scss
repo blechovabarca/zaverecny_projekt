@@ -19,6 +19,7 @@
     &__photo {
         width: 300px;
         height: 300px;
+        object-fit: cover;
         border-radius: 50%;
         box-shadow: variables.$box-shadow-boxes;
         @media screen and (max-width: 580px) {
