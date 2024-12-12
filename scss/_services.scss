@@ -38,19 +38,18 @@
 .service-item {
     display: flex;
     margin-bottom: 15px;
-    max-height: 250px;
+    max-height: 300px;
     box-shadow: variables.$box-shadow-boxes;
-    @media screen and (max-width: 400px) {
-        height: 200px;
-    } 
+    // @media screen and (max-width: 400px) {
+    //     height: 20px;
+    // } 
 
     &__photo {
         object-fit: cover;
         width: 40%;
-        max-height: 250px;
+        max-height: 300px;
         @media screen and (max-width: 400px) {
-            height: 200px;
-            width: 50%;
+            height: 300px;
         } 
         @media screen and (min-width: 600px) {
             max-width: 250px;
@@ -63,8 +62,8 @@
         width: 60%;
         padding: 5%;
         @media screen and (max-width: 400px) {
-            padding: 4%;
-            font-size: 12px;
+            padding-top: 15%;
+            font-size: 16px;
         }
 
         &--title {
