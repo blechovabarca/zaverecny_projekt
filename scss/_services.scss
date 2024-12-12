@@ -26,13 +26,12 @@
     &-buttons {
         list-style: none;
         display: flex;
-        flex-grow: 1;
         padding-left: 0;
         text-align: left;
         @media screen and (max-width: 420px) {
             flex-wrap: wrap;
+            width: 150px;
         }
-
     }
 }
 
