@@ -26,6 +26,7 @@
     &-buttons {
         list-style: none;
         display: flex;
+        flex-grow: 1;
         padding-left: 0;
         text-align: left;
         @media screen and (max-width: 420px) {
@@ -40,13 +41,17 @@
     margin-bottom: 15px;
     max-height: 250px;
     box-shadow: variables.$box-shadow-boxes;
+    @media screen and (max-width: 400px) {
+        height: 200px;
+    } 
 
     &__photo {
         object-fit: cover;
         width: 40%;
         max-height: 250px;
         @media screen and (max-width: 400px) {
-            max-height: 250px;
+            height: 200px;
+            width: 50%;
         } 
         @media screen and (min-width: 600px) {
             max-width: 250px;
@@ -59,12 +64,14 @@
         width: 60%;
         padding: 5%;
         @media screen and (max-width: 400px) {
-            padding: 3%;
+            padding: 4%;
+            font-size: 12px;
         }
 
         &--title {
             font-family: variables.$title-font;
             font-weight: 500;
+            margin-top: 0;
         }
 
     }
