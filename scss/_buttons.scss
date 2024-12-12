@@ -63,10 +63,11 @@
     &--services {
         margin-left:0;
         margin-right: 10px;
-        width: 150px;
+        width: 160px;
         font-size: 0.9em;
         @media screen and (max-width: 400px) {
             padding: 5%;
+            font-size: 16px;
         }
         @media screen and (min-width: 600px) {
             width: 120px;

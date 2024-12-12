@@ -267,12 +267,13 @@ html {
 .button--services {
   margin-left: 0;
   margin-right: 10px;
-  width: 150px;
+  width: 160px;
   font-size: 0.9em;
 }
 @media screen and (max-width: 400px) {
   .button--services {
     padding: 5%;
+    font-size: 16px;
   }
 }
 @media screen and (min-width: 600px) {
@@ -470,6 +471,7 @@ html {
 @media screen and (max-width: 400px) {
   .service-item__photo {
     height: 300px;
+    width: 45%;
   }
 }
 @media screen and (min-width: 600px) {
@@ -487,6 +489,7 @@ html {
   .service-item__text {
     padding-top: 15%;
     font-size: 16px;
+    width: 55%;
   }
 }
 .service-item__text--title {
