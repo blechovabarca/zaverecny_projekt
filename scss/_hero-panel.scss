@@ -41,8 +41,8 @@
         @media screen and (min-width: 1500px) {
             width: 500px;
             height: auto;
+        }
     }
-}
 
     &__title {
         font-family: variables.$title-font;
@@ -56,6 +56,7 @@
             font-size: 110px;
         }
     }
+
     &__subtitle {
         font-family: variables.$basic-font;
         color: variables.$dark-brown;
@@ -85,8 +86,8 @@
         @media screen and (min-width: 1500px) {
             font-size: 18px;
             margin-top: 60px;
+        }
     }
-}
 
     &__column--text {
         @media screen and (min-width: 900px) {
