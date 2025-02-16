@@ -8,8 +8,9 @@
     color: white;
     font-family: variables.$basic-font;
     font-weight: 300;
-    padding: 10px 5px;
-    margin: 8px;
+    padding: 2%;
+    margin-top: 8px;
+    margin-bottom: 8px;
     border-radius: 12px;
     text-align: center;
     box-shadow:  variables.$box-shadow-buttons;
@@ -50,9 +51,8 @@
     }
 
     &--services {
-        margin-left:10px;
-        margin-right: 10px;
-        width: 160px;
+        margin: 0;
+        width: 150px;
         font-size: 0.9em;
         @media screen and (max-width: 400px) {
             padding: 5%;
@@ -99,4 +99,10 @@
     border-radius: 12px;
     text-align: center;
     box-shadow:  variables.$box-shadow-buttons;
+}
+
+
+.button--services {
+    margin-left: 0;
+    margin-right: 0;
 }
