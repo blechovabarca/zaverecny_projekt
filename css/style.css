@@ -38,15 +38,15 @@ html {
 /*some common settings*/
 .logo {
   position: absolute;
-  width: 200px;
-  left: 45%;
   width: 70px;
+  left: calc(50% - 35px);
   top: 16px;
 }
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 500px) {
   .logo {
-    left: 40%;
-    width: 60px;
+    left: calc(50% - 25px);
+    width: 50px;
+    top: 22px;
   }
 }
 
@@ -98,8 +98,9 @@ html {
   padding-bottom: 10px;
   padding-left: 3%;
   color: white;
-  font-family: "Fraunces";
-  font-size: 20px;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 200;
 }
 .header-menu-hamburger {
   display: none;
