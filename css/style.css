@@ -137,6 +137,7 @@ html {
   display: flex;
   justify-content: space-around;
   padding-left: 10px;
+  text-decoration: none;
 }
 @media screen and (min-width: 1040px) {
   .header-contact {
