@@ -48,7 +48,7 @@
 
     &__personal {
         font-family: variables.$basic-font;
-        font-size: 20px;
+        font-size: 18px;
         color: variables.$dark-brown;
         padding-top: 10px;
         padding-bottom: 20px;
@@ -72,7 +72,7 @@
 
 .experience {
     background-color: variables.$light-brown;
-    margin-bottom: 20px;
+    margin-bottom: 18px;
     box-shadow: variables.$box-shadow-boxes;
     display: block;
     max-width: 1100px;
@@ -107,5 +107,5 @@
 }
 
 .opening {
-    font-weight:  bold;
+    font-weight: bold;
 }
