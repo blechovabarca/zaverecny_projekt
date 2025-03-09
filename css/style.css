@@ -501,12 +501,14 @@ html {
     width: 250px;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
     flex-grow: 1;
   }
 }
 @media screen and (min-width: 400px) {
   .services-buttons {
     width: 250px;
+    justify-content: center;
   }
 }
 
