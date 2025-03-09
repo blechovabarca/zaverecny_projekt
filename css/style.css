@@ -498,7 +498,7 @@ html {
 }
 @media screen and (max-width: 400px) {
   .services-buttons {
-    width: 250px;
+    width: 100%;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
@@ -507,7 +507,7 @@ html {
 }
 @media screen and (min-width: 400px) {
   .services-buttons {
-    width: 250px;
+    width: 100%;
     justify-content: center;
   }
 }
