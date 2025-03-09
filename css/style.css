@@ -775,6 +775,11 @@ html {
   padding-top: 10px;
   padding-bottom: 20px;
 }
+@media screen and (max-width: 580px) {
+  .about__personal {
+    text-align: center;
+  }
+}
 .about__container {
   margin-top: 0;
   padding-left: 3%;
@@ -816,6 +821,15 @@ html {
   padding-right: 5%;
   flex-basis: 80%;
   color: #685E50;
+}
+@media screen and (max-width: 580px) {
+  .experience__text {
+    text-align: center;
+  }
+}
+
+.opening {
+  font-weight: bold;
 }
 
 /*page about */

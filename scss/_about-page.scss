@@ -52,6 +52,9 @@
         color: variables.$dark-brown;
         padding-top: 10px;
         padding-bottom: 20px;
+        @media screen and (max-width: 580px) {
+            text-align: center;
+        }
     }
 
     &__container {
@@ -96,6 +99,13 @@
         padding-right: 5%;
         flex-basis: 80%;
         color: variables.$dark-brown;
+        @media screen and (max-width: 580px) {
+            text-align: center;
+        }
     }
 
+}
+
+.opening {
+    font-weight:  bold;
 }
