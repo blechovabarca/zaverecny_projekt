@@ -940,3 +940,10 @@ html {
 }
 
 /*page with QR codes*//*# sourceMappingURL=style.css.map */
+
+
+
+.section__text--booking-info-bold {
+    font-weight: bold;
+
+}
